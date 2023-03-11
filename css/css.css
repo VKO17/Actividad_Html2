@@ -70,6 +70,15 @@ form {
 
 fieldset {
   display: inline-block;
+  margin: auto;
+  width: fit-content;
+}
+
+.centerbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*height: 100vh;*/
 }
 
 h1 {
