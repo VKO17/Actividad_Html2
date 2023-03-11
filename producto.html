@@ -2,9 +2,11 @@
 <html>
 <head>
   <title>Producto - Tabla de productos</title>
+  <link rel="stylesheet" type="text/css" href="css/css.css">
 </head>
 <body>
-  <h1>Editar producto</h1>
+  <fieldset>
+    <legend>Registro de Producto</legend>
   <form>
     <label for="codigo">Código:</label>
     <input type="text" id="codigo" name="codigo" required><br>
@@ -25,15 +27,20 @@
     <input type="text" id="proveedor" name="proveedor" required><br>
 
     <label for="estado">Estado:</label>
-    <select id="estado" name="estado">
-      <option value="si">Si</option>
-      <option value="no">No</option>
-    </select><br>
+    <input type="checkbox" id="estado" name="estado">
+    <span class="estado-label">Activo</span><br><br>
 
     <label for="categoria">Categoría:</label>
-    <input type="text" id="categoria" name="categoria" required><br>
+    <select id="categoria" name="categoria">
+      <option value="Categoria 1">Categoria 1</option>
+      <option value="Categoria 2">Categoria 2</option>
+      <option value="Categoria 3">Categoria 3</option>
+      <option value="Categoria 4">Categoria 4</option>
+    </select><br>
 
-    <button type="submit">Guardar cambios</button>
+    
   </form>
+  </fieldset>
 </body>
 </html>
+

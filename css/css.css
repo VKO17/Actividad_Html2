@@ -60,3 +60,36 @@ th {
 .boton.eliminar:hover {
   background-color: #b02535;
 }
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input[type="text"],
+select {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-left: 160px;
+}
+
+.estado-label {
+  font-size: 0.8em;
+  margin-left: 5px;
+}
